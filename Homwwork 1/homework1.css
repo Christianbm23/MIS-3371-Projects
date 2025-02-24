@@ -1,0 +1,66 @@
+/*
+    Program Name: patient-form.html
+    Author: Christrian Martinez
+    Date Created: 2025-01-27
+    Date Updated: 2025-02-09
+    Description: Style Sheet for MIS 3371 Homework 1
+ */
+ body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(247, 202, 253);
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(252, 229, 255);
+    border-bottom: 2px solid #ccc;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    background: rgb(252, 229, 255);
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+ td {
+    padding: 5px;   
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+}
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgb(252, 229, 255);
+    border-radius: 8px;
+}
+.button-container {
+    text-align: center;
+    margin-top: 15px;
+} 
+.checkbox-section {
+    margin-top: 20px;
+}
+.checkbox-section h3 {
+    margin-bottom: 10px;
+}
+.checkbox-section label {
+    display: block;
+    margin: 5px 0;
+}
